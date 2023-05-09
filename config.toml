@@ -17,7 +17,7 @@ theme = "DoIt"
     title = "Learning Records"
     languageCode = "en"
     languageName = "English"
-    [[languages.en.menu.main]]
+    [[languages.zh-cn.menu.main]]
       identifier = "posts"
       pre = ""
       post = ""
@@ -25,22 +25,38 @@ theme = "DoIt"
       url = "/posts/"
       title = ""
       weight = 1
-    [[languages.en.menu.main]]
-      identifier = "tags"
-      pre = ""
-      post = ""
-      name = "Tags"
-      url = "/tags/"
-      title = ""
-      weight = 2
-    [[languages.en.menu.main]]
+    [[languages.zh-cn.menu.main]]
       identifier = "categories"
       pre = ""
       post = ""
       name = "Categories"
       url = "/categories/"
       title = ""
+      weight = 2
+    [[languages.zh-cn.menu.main]]
+      identifier = "series"
+      pre = ""
+      post = ""
+      name = "Series"
+      url = "/series/"
+      title = ""
       weight = 3
+    [[languages.zh-cn.menu.main]]
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Tags"
+      url = "/tags/"
+      title = ""
+      weight = 4
+    # [[languages.zh-cn.menu.main]]
+    #   identifier = "about"
+    #   pre = ""
+    #   post = ""
+    #   name = "About"
+    #   url = "/about/"
+    #   title = ""
+    #   weight = 5
 
   [languages.zh-cn]
     weight = 2
@@ -59,21 +75,37 @@ theme = "DoIt"
       title = ""
       weight = 1
     [[languages.zh-cn.menu.main]]
-      identifier = "tags"
-      pre = ""
-      post = ""
-      name = "标签"
-      url = "/tags/"
-      title = ""
-      weight = 2
-    [[languages.zh-cn.menu.main]]
       identifier = "categories"
       pre = ""
       post = ""
       name = "分类"
       url = "/categories/"
       title = ""
+      weight = 2
+    [[languages.zh-cn.menu.main]]
+      identifier = "series"
+      pre = ""
+      post = ""
+      name = "系列"
+      url = "/series/"
+      title = ""
       weight = 3
+    [[languages.zh-cn.menu.main]]
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "标签"
+      url = "/tags/"
+      title = ""
+      weight = 4
+    # [[languages.zh-cn.menu.main]]
+    #   identifier = "about"
+    #   pre = ""
+    #   post = ""
+    #   name = "关于"
+    #   url = "/about/"
+    #   title = ""
+    #   weight = 5
 
 [params]
   # DoIt 主题版本
@@ -102,11 +134,11 @@ theme = "DoIt"
   # DoIt 新增 | 0.2.0 应用图标配置
   [params.app]
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "DoIt"
+    title = "Learning Records"
     # 是否隐藏网站图标资源链接
     noFavicon = false
     # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
-    svgFavicon = ""
+    svgFavicon = "/images/zoro.png"
     # Safari 图标颜色
     iconColor = "#5bbad5"
     # Windows v8-10磁贴颜色
@@ -713,7 +745,7 @@ theme = "DoIt"
     name = "分类"
     url = "/categories/"
     title = ""
-    weight = 1
+    weight = 2
   [[menu.main]]
     identifier = "series"
     pre = ""
@@ -721,7 +753,7 @@ theme = "DoIt"
     name = "系列"
     url = "/series/"
     title = ""
-    weight = 2
+    weight = 3
   [[menu.main]]
     identifier = "tags"
     pre = ""
@@ -729,7 +761,15 @@ theme = "DoIt"
     name = "标签"
     url = "/tags/"
     title = ""
-    weight = 3
+    weight = 4
+  [[menu.main]]
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "关于"
+    url = "/about/"
+    title = ""
+    weight = 5
   
 
 # Hugo 解析文档的配置
