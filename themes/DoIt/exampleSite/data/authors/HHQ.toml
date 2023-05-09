@@ -1,0 +1,5 @@
+link = "https://alice.example.com"
+email = "alice@example.com"
+name = "HHQ"
+[zh-cn]
+    name = "索隆不喝酒"
