@@ -38,8 +38,8 @@ jobs:
                   extended: true
 
             - name: Build Web
-              #run: hugo --gc --minify
-              run: hugo
+              run: hugo --gc --minify
+              #run: hugo
 
             - name: Create CNAME
               run: echo "honghuiqiang.com" > public/CNAME
