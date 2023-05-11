@@ -14,7 +14,7 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v2
               with:
-                  submodules: false
+                  submodules: true
                   fetch-depth: 0
 
             - name: Set up Python
@@ -49,6 +49,6 @@ jobs:
               with:
                   PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
                   EXTERNAL_REPOSITORY: 904566722/904566722.github.io
-                  PUBLISH_BRANCH: hugo
+                  PUBLISH_BRANCH: hugo-test
                   PUBLISH_DIR: ./public
                   commit_message: ${{ github.event.head_commit.message }}

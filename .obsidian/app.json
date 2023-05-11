@@ -3,7 +3,7 @@
   "newLinkFormat": "absolute",
   "attachmentFolderPath": "themes/DoIt/assets/images/posts",
   "alwaysUpdateLinks": true,
-  "showUnsupportedFiles": false,
+  "showUnsupportedFiles": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "content/posts",
   "pdfExportSettings": {
