@@ -6,7 +6,7 @@ languageCode = "zh-CN"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 # 网站标题
-title = "HHQ Learning Records"
+title = "HHQ Records"
 
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "DoIt"
@@ -14,7 +14,7 @@ theme = "DoIt"
 [languages]
   [languages.en]
     weight = 1
-    title = "HHQ Learning Records"
+    title = "HHQ Records"
     languageCode = "en"
     languageName = "English"
     [[languages.zh-cn.menu.main]]
@@ -134,7 +134,7 @@ theme = "DoIt"
   # DoIt 新增 | 0.2.0 应用图标配置
   [params.app]
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "HHQ Learning Records"
+    title = "HHQ Records"
     # 是否隐藏网站图标资源链接
     noFavicon = false
     # 更现代的 SVG 网站图标, 可替代旧的 .png 和 .ico 文件
@@ -191,7 +191,7 @@ theme = "DoIt"
       # LOGO 的 URL
       logo = ""
       # 标题名称
-      name = "HHQ Learning Records"
+      name = "HHQ Records"
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
@@ -261,7 +261,7 @@ theme = "DoIt"
       # DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
       title = ""
       # 主页显示的网站副标题
-      subtitle = "这是我的学习记录"
+      subtitle = "这是我的各种记录"
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号

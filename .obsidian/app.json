@@ -5,5 +5,12 @@
   "alwaysUpdateLinks": true,
   "showUnsupportedFiles": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "content/posts"
+  "newFileFolderPath": "content/posts",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 54
+  }
 }

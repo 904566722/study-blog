@@ -1,3 +1,5 @@
 {
-  "template": "template/日记 模版"
+  "template": "template/日记 模版",
+  "folder": "content/posts/diary",
+  "format": "YYYY-MM-DD"
 }
