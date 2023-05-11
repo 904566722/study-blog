@@ -585,12 +585,12 @@ theme = "DoIt"
         simple_view = false
       # DoIt 新增 | 0.2.13 giscus 评论系统设置
       [params.page.comment.giscus]
-        enable = false
+        enable = true
         # owner/repo
-        dataRepo = ""
-        dataRepoId = ""
-        dataCategory = ""
-        dataCategoryId = ""
+        dataRepo = "904566722/hugo-giscus-common-system"
+        dataRepoId = "R_kgDOJh9DwA"
+        dataCategory = "General"
+        dataCategoryId = "DIC_kwDOJh9DwM4CWbTD"
         dataMapping = "pathname"
         dataReactionsEnabled = "1"
         dataEmitMetadata = "0"
@@ -672,10 +672,10 @@ theme = "DoIt"
 
     # DoIt 新增 | 0.2.0 网站分析配置
   [params.analytics]
-    enable = false
+    enable = true
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "G-GKX5LKE0Z8"
       # 是否匿名化用户 IP
       anonymizeIP = true
     # Fathom Analytics
