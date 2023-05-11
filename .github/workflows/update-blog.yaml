@@ -41,6 +41,9 @@ jobs:
               run: hugo --gc --minify
               #run: hugo
 
+            - name: CP Extend Files
+              run: cp ./extend/* ./public
+
             - name: Create CNAME
               run: echo "honghuiqiang.com" > public/CNAME
 
