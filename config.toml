@@ -685,7 +685,7 @@ theme = "DoIt"
       server = ""
     # DoIt 新增 | 0.2.13 Baidu Analytics
     [params.analytics.baidu]
-      id = ""
+      id = "7ee459037c39c6123ff6e6252a7c5301"
     # DoIt 新增 | 0.2.13 Umami Analytics
     [params.analytics.umami]
       data_website_id = ""
