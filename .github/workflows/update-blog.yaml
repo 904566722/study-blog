@@ -41,6 +41,9 @@ jobs:
               #run: hugo --gc --minify
               run: hugo
 
+            - name: Create CNAME
+              run: echo "honghuiqiang.com" > public/CNAME
+
             - name: Run Pagefind
               run: npm_config_yes=true npx pagefind --source "public"
 
