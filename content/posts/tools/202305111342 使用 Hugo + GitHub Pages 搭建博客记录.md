@@ -7,9 +7,9 @@ draft: false
 authors: [索隆不喝酒]
 
 tags: [个人记录]
-series: [Tools-Method-box]
+series: [博客建设]
 categories: [Tools-Method]
-series_weight: 1
+series_weight: 2
 seriesNavigation: true
 featuredImage: ""
 featuredImagePreview: "images/product/hugo.png"
