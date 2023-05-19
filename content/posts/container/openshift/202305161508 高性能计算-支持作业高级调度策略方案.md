@@ -8,7 +8,7 @@ authors: [索隆不喝酒]
 
 tags: []
 series: [偏工作性质记录]
-categories: [分类-box]
+categories: [OpenShift]
 series_weight: 1
 seriesNavigation: true
 featuredImage: ""
