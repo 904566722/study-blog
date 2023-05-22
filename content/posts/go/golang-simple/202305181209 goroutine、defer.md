@@ -6,7 +6,7 @@ date: 2023-05-18T12:05:00+08:00
 draft: false
 authors: [索隆不喝酒]
 
-tags: []
+tags: [goroutine,defer]
 series: [Golang初识]
 categories: [Golang]
 series_weight: 1
