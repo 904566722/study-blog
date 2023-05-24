@@ -261,11 +261,11 @@ theme = "DoIt"
       # DoIt 更改 | 0.2.7 主页显示的网站标题 (支持 HTML 格式)
       title = ""
       # 主页显示的网站副标题
-      subtitle = "这是我的各种记录"
+      subtitle = "Out of the comfort zone!"
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号
-      social = true
+      social = false
       # DoIt 新增 | 0.2.0 免责声明 (支持 HTML 格式)
       disclaimer = ""
     # 主页文章列表
