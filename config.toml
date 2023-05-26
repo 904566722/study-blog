@@ -60,7 +60,7 @@ theme = "DoIt"
     pre = ""
     post = ""
     name = "「Go」"
-    url = "/mkdocs-go/"
+    url = "/go/"
     title = ""
     weight = 6
   [[menu.main]]
@@ -172,7 +172,7 @@ theme = "DoIt"
       pre = ""
       post = ""
       name = "「Go」"
-      url = "/mkdocs-go/"
+      url = "/go/"
       title = "Golang一些相关学习，作为一个专题(使用「」描述的都为专题)"
       weight = 6
     [[languages.zh-cn.menu.main]]
