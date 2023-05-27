@@ -110,14 +110,30 @@ theme = "DoIt"
       url = "/tags/"
       title = ""
       weight = 4
-    # [[languages.zh-cn.menu.main]]
-    #   identifier = "about"
-    #   pre = ""
-    #   post = ""
-    #   name = "About"
-    #   url = "/about/"
-    #   title = ""
-    #   weight = 5
+    [[languages.zh-cn.menu.main]]
+      identifier = "algo"
+      pre = ""
+      post = ""
+      name = "「算法」"
+      url = "/algo/"
+      title = ""
+      weight = 5
+    [[languages.zh-cn.menu.main]]
+      identifier = "go"
+      pre = ""
+      post = ""
+      name = "「Go」"
+      url = "/go/"
+      title = ""
+      weight = 6
+    [[menu.main]]
+      identifier = "about"
+      pre = ""
+      post = ""
+      name = "About"
+      url = "/about/"
+      title = ""
+      weight = 10
 
   [languages.zh-cn]
     weight = 2
@@ -176,7 +192,7 @@ theme = "DoIt"
       title = "Golang一些相关学习，作为一个专题(使用「」描述的都为专题)"
       weight = 6
     [[languages.zh-cn.menu.main]]
-     identifier = "about"
+      identifier = "about"
       pre = ""
       post = ""
       name = "About"
