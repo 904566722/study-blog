@@ -1,8 +1,8 @@
 ---
-title: "{{date:YYYY-MM-DD}} 日记录"
+title: "2023-05-27-daily-note"
 subtitle: ""
 description: ""
-date: {{date:YYYY-MM-DD}}T{{time:HH:MM}}:00+08:00
+date: 2023-05-27T21:24:00+08:00
 draft: false
 authors: [索隆不喝酒]
 
@@ -20,7 +20,17 @@ featuredImagePreview: ""
 
 ## 规划区
 
-- [ ] todo
+vscode use `alt` + `c` to mark done
+
+-- 昨天遗留 --
+
+- [ ]  「golang - 1h30m」golang GMP 模型
+- [ ]  「kubernetes」整理 kubernetes 相关学习内容
+- [ ]  「golang」 context
+
+-- 新计划 --
+
+- [x] 使用 vscode 一劳永逸吧
 
 ## 记录区-习惯记录
 

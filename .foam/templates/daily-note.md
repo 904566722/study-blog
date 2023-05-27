@@ -1,8 +1,8 @@
 ---
-title: "{{date:YYYY-MM-DD}} 日记录"
+title: "${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}-daily-note"
 subtitle: ""
 description: ""
-date: {{date:YYYY-MM-DD}}T{{time:HH:MM}}:00+08:00
+date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}T${CURRENT_HOUR}:${CURRENT_MINUTE}:00+08:00
 draft: false
 authors: [索隆不喝酒]
 
@@ -13,12 +13,16 @@ series_weight: 1
 seriesNavigation: true
 featuredImage: ""
 featuredImagePreview: ""
+foam_template:
+    filepath: 'content/posts/life/diary/$FOAM_DATE_YEAR/$FOAM_DATE_MONTH/$FOAM_DATE_YEAR-$FOAM_DATE_MONTH-$FOAM_DATE_DATE-daily-note.md'
 ---
 <!--more-->
 
 {{< music url="/music/finding_happiness/finding-happiness.mp3" name="행복을 찾아서 (寻找幸福)" artist="Leessang (리쌍)/赵贤雅 (조현아)" cover="/music/finding_happiness/lessang.png" >}}
 
 ## 规划区
+
+vscode use `alt` + `c` to mark done
 
 - [ ] todo
 
