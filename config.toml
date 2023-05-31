@@ -181,7 +181,7 @@ theme = "DoIt"
       post = ""
       name = "「算法」"
       url = "/algo/"
-      title = "主要是我的做题记录，作为一个专题(使用「」描述的都为专题)"
+      title = "【建设中...】主要是我的做题记录，作为一个专题(使用「」描述的都为专题)"
       weight = 5
     [[languages.zh-cn.menu.main]]
       identifier = "go"
@@ -189,7 +189,7 @@ theme = "DoIt"
       post = ""
       name = "「Go」"
       url = "/go/"
-      title = "Golang一些相关学习，作为一个专题(使用「」描述的都为专题)"
+      title = "【建设中...】Golang一些相关学习，作为一个专题(使用「」描述的都为专题)"
       weight = 6
     [[languages.zh-cn.menu.main]]
       identifier = "about"
