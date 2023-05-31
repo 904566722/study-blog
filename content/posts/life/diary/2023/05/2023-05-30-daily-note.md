@@ -3,7 +3,7 @@ title: "2023-05-30-daily-note"
 subtitle: ""
 description: ""
 date: 2023-05-30T00:57:00+08:00
-draft: false
+draft: true
 authors: [索隆不喝酒]
 
 tags: [个人记录]
