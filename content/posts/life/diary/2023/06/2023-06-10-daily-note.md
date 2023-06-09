@@ -1,8 +1,8 @@
 ---
-title: "${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}-daily-note"
+title: "2023-06-10-daily-note"
 subtitle: ""
 description: ""
-date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}T${CURRENT_HOUR}:${CURRENT_MINUTE}:00+08:00
+date: 2023-06-10T07:21:00+08:00
 draft: false
 authors: [索隆不喝酒]
 
@@ -13,8 +13,6 @@ series_weight: 1
 seriesNavigation: true
 featuredImage: ""
 featuredImagePreview: ""
-foam_template:
-    filepath: 'content/posts/life/diary/$FOAM_DATE_YEAR/$FOAM_DATE_MONTH/$FOAM_DATE_YEAR-$FOAM_DATE_MONTH-$FOAM_DATE_DATE-daily-note.md'
 ---
 <!--more-->
 
@@ -24,7 +22,11 @@ foam_template:
 
 vscode use `alt` + `c` to mark done
 
-- [ ] todo
+- [ ] 整理之前面试的一些东西
+- [ ] 整理手机布局，评测、选择记账工具
+- [ ] 查找关于「情绪控制」的相关书籍
+- [ ] 更新 [[202305101151 开始记录一些我的工具、便捷操作]]
+- [ ] 整理 box
 
 ### 记录区-习惯记录
 
