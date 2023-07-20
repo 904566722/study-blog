@@ -2,3 +2,5 @@
 .obsidian/workspace.json
 public/
 public-bak/
+*.dtmp
+*.bkp
